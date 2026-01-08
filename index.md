@@ -5,7 +5,7 @@ title: Barak Haryati
 
 <section class="hero">
   <div class="hero-content">
-    <span class="hero-label">Security Evangelist</span>
+    <span class="hero-label">> whoami</span>
     <h1>Barak Haryati</h1>
     <p class="hero-title">Director of Product Security at <strong>JFrog</strong></p>
     <div class="expertise-tags">
