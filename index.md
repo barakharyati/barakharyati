@@ -72,7 +72,7 @@ title: Barak Haryati
   <div class="section-cmd">
     <span class="prompt">barak@security:~$</span> <span class="command">ls -la research/</span>
   </div>
-  <p class="comment">directory is empty</p>
+  <p class="comment">loading...</p>
   <span class="status coming">Coming Soon</span>
 </section>
 
