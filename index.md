@@ -3,52 +3,72 @@ layout: default
 title: Barak Haryati
 ---
 
+<nav class="nav">
+  <a href="#" class="nav-brand">🐸 BH</a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+  <a href="mailto:barakhr25@gmail.com" class="nav-cta">Contact</a>
+</nav>
+
 <section class="hero">
-  <img src="assets/profile.png" alt="Barak Haryati" class="profile-image">
-  <h1>Barak Haryati</h1>
-  <p class="hero-title">Director of Product Security</p>
-  <p class="hero-company">🐸 JFrog</p>
+  <div class="hero-content">
+    <span class="hero-label">Hello, I'm</span>
+    <h1>Barak Haryati</h1>
+    <p class="hero-title">Director of Product Security</p>
+    
+    <div class="expertise-list">
+      <span class="expertise-item">Application Security</span>
+      <span class="expertise-item">Cloud Security</span>
+      <span class="expertise-item">CI/CD & Supply Chain</span>
+      <span class="expertise-item">AI Security</span>
+    </div>
+    
+    <p class="hero-description">I lead security strategy, drive secure development practices, and build security guardrails that protect products at scale.</p>
+    
+    <a href="#connect" class="hero-cta">Get In Touch</a>
+  </div>
   
-  <div class="expertise-list">
-    <span class="expertise-item">Application Security</span>
-    <span class="expertise-item">Cloud Security</span>
-    <span class="expertise-item">CI/CD & Supply Chain</span>
-    <span class="expertise-item">AI Security</span>
+  <div class="hero-image">
+    <img src="assets/profile.png" alt="Barak Haryati" class="profile-image">
   </div>
 </section>
 
 <div class="content-wrapper">
 
 <section id="about">
-  <h2>About</h2>
+  <h2>About <span>Me</span></h2>
   <div class="about-card">
     <p>I'm a security evangelist specializing in Application Security, Cloud Security, CI/CD security, and AI Security, with a strong focus on large-scale software supply-chain protection and AI-assisted attack surfaces.</p>
-    <p>I lead security strategy, drive secure development practices, and build security guardrails that protect products at scale.</p>
+    <p>At <span class="highlight">JFrog</span>, I lead product security initiatives that protect millions of developers and enterprises worldwide.</p>
     <div class="patent-badge">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
       Patent Pending — AI Security
     </div>
   </div>
 </section>
 
 <section id="research">
-  <h2>Research & Publications</h2>
-  <div class="content-card">
-    <span class="status-badge">Coming Soon</span>
-    <p>Research publications and security insights will be shared here.</p>
-  </div>
-</section>
-
-<section id="disclosures">
-  <h2>CVEs & Security Disclosures</h2>
-  <div class="content-card">
-    <span class="status-badge">Coming Soon</span>
-    <p>CVEs, GitHub Security Advisories, and coordinated disclosures.</p>
+  <h2>Research & <span>Disclosures</span></h2>
+  <div class="cards-grid">
+    <div class="content-card">
+      <h3>📚 Publications</h3>
+      <span class="status-badge">Coming Soon</span>
+      <p>Research publications and security insights will be shared here.</p>
+    </div>
+    <div class="content-card">
+      <h3>🔓 CVEs & Advisories</h3>
+      <span class="status-badge">Coming Soon</span>
+      <p>CVEs, GitHub Security Advisories, and coordinated disclosures.</p>
+    </div>
   </div>
 </section>
 
 <section id="connect">
-  <h2>Connect</h2>
+  <h2>Let's <span>Connect</span></h2>
   <div class="connect-grid">
     <a href="https://www.linkedin.com/in/barakharyati" class="connect-link" target="_blank" rel="noopener">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -68,5 +88,5 @@ title: Barak Haryati
 </div>
 
 <footer>
-  <p>© 2025 Barak Haryati <span class="divider">·</span> Security Leader <span class="divider">·</span> AppSec <span class="divider">·</span> Cloud <span class="divider">·</span> AI</p>
+  <p>© 2025 Barak Haryati · <span class="accent">Security Leader</span> · AppSec · Cloud · AI Security</p>
 </footer>
