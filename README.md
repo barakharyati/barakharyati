@@ -1,6 +1,6 @@
 # Barak Haryati
 
-**Director of Product Security at JFrog** 🐸
+**Senior Director of Product Security at JFrog** 🐸
 
 ---
 
