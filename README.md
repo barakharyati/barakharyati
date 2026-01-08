@@ -1,31 +1,30 @@
-# Hi, I'm Barak Haryati 👋
+# Barak Haryati
 
-**Director of Product Security at JFrog**
-
----
-
-### About Me
-
-I'm a security evangelist specializing in Application Security, Cloud Security, CI/CD security, and AI Security, with a strong focus on large-scale software supply-chain protection and AI-assisted attack surfaces.
-
-My work spans vulnerability research, secure platform and guardrail design, and real-world exploitation of CI/CD, AI systems, and build pipelines.
-
-🔬 **Inventor** on a pending patent related to AI security.
+**Director of Product Security at JFrog** 🐸
 
 ---
 
-### Expertise
+### About
 
-`Application Security` `Cloud Security` `CI/CD & Supply-Chain Security` `AI Security`
+Security evangelist specializing in Application Security, Cloud Security, CI/CD security, and AI Security. I lead security strategy, drive secure development practices, and build security guardrails that protect products at scale.
+
+**Focus Areas:**  
+`Application Security` · `Cloud Security` · `CI/CD & Supply Chain` · `AI Security`
+
+---
+
+### Patent
+
+🏆 **Inventor** on a pending patent related to AI Security
 
 ---
 
 ### Connect
 
-- 🌐 Website: [barak.haryati.io](https://barak.haryati.io)
-- 💼 LinkedIn: [linkedin.com/in/barakharyati](https://www.linkedin.com/in/barakharyati)
-- 📧 Email: barakhr25@gmail.com
+🌐 **Website:** [barak.haryati.io](https://barak.haryati.io)  
+💼 **LinkedIn:** [linkedin.com/in/barakharyati](https://www.linkedin.com/in/barakharyati)  
+📧 **Email:** barakhr25@gmail.com
 
 ---
 
-*Security • AppSec • Cloud • CI/CD • AI Security*
+<sub>© 2025 Barak Haryati · Security Leader</sub>
