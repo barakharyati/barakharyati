@@ -20,7 +20,7 @@ title: Barak Haryati
     <h1>Barak Haryati</h1>
     <p class="hero-title">Director of Product Security at <span class="company">🐸 JFrog</span></p>
     
-    <p class="hero-description">Security evangelist with deep expertise in securing software at scale. I lead product security initiatives that protect millions of developers and enterprises worldwide — from vulnerability research to building secure platforms and guardrails.</p>
+    <p class="hero-description">Security evangelist with a passion for technology and securing software at scale. I lead product security initiatives that protect millions of developers and enterprises worldwide — from vulnerability research to building secure platforms and guardrails.</p>
     
     <div class="expertise-list">
       <span class="expertise-item">Application Security</span>
