@@ -63,7 +63,7 @@ title: Barak Haryati
   
   <div class="output-block">
     <p>I'm a security evangelist specializing in Application Security, Cloud Security, CI/CD security, and AI Security, with a strong focus on large-scale software supply-chain protection and AI-assisted attack surfaces.</p>
-    <p>My work spans vulnerability research, secure platform and guardrail design, and real-world exploitation of CI/CD, AI systems, and build pipelines.</p>
+    <p>I lead security strategy, drive secure development practices, and build security guardrails that protect products at scale.</p>
     <p>I am also the <span class="highlight">inventor on a pending patent</span> related to AI security.</p>
   </div>
 </section>
@@ -80,8 +80,7 @@ title: Barak Haryati
   <div class="section-cmd">
     <span class="prompt">barak@security:~$</span> <span class="command">cat disclosures.log</span>
   </div>
-  <p class="comment">CVEs, GHSA advisories, and coordinated disclosures loading...</p>
-  <span class="status coming">Coming Soon</span>
+<span class="status coming">Coming Soon</span>
 </section>
 
 <section id="patents">
