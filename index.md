@@ -39,7 +39,7 @@ title: Barak Haryati
   <span class="info-value">Director of Product Security</span>
   
   <span class="info-key">company:</span>
-  <span class="info-value highlight">JFrog</span>
+  <span class="info-value highlight">🐸 JFrog</span>
   
   <span class="info-key">location:</span>
   <span class="info-value">Israel</span>
