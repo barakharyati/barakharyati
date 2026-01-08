@@ -1,0 +1,12 @@
+# Site settings
+title: Barak Haryati
+markdown: kramdown
+baseurl: ""
+url: "https://barak.haryati.io"
+
+# Build settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
