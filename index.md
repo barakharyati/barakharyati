@@ -18,7 +18,9 @@ title: Barak Haryati
   <div class="hero-content">
     <span class="hero-label">Hello, I'm</span>
     <h1>Barak Haryati</h1>
-    <p class="hero-title">Director of Product Security</p>
+    <p class="hero-title">Director of Product Security at <span class="company">🐸 JFrog</span></p>
+    
+    <p class="hero-description">Security evangelist with deep expertise in securing software at scale. I lead product security initiatives that protect millions of developers and enterprises worldwide — from vulnerability research to building secure platforms and guardrails.</p>
     
     <div class="expertise-list">
       <span class="expertise-item">Application Security</span>
@@ -27,7 +29,16 @@ title: Barak Haryati
       <span class="expertise-item">AI Security</span>
     </div>
     
-    <p class="hero-description">I lead security strategy, drive secure development practices, and build security guardrails that protect products at scale.</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-icon">🏆</span>
+        <span class="stat-text">Patent Pending — AI Security</span>
+      </div>
+      <div class="stat">
+        <span class="stat-icon">📍</span>
+        <span class="stat-text">Israel</span>
+      </div>
+    </div>
     
     <a href="#connect" class="hero-cta">Get In Touch</a>
   </div>
@@ -39,37 +50,25 @@ title: Barak Haryati
 
 <div class="content-wrapper">
 
-<section id="about">
-  <h2>About <span>Me</span></h2>
-  <div class="about-card">
-    <p>I'm a security evangelist specializing in Application Security, Cloud Security, CI/CD security, and AI Security, with a strong focus on large-scale software supply-chain protection and AI-assisted attack surfaces.</p>
-    <p>At <span class="highlight">JFrog</span>, I lead product security initiatives that protect millions of developers and enterprises worldwide.</p>
-    <div class="patent-badge">
-      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      Patent Pending — AI Security
-    </div>
-  </div>
-</section>
-
-<section id="research">
-  <h2>Research & <span>Disclosures</span></h2>
-  <div class="cards-grid">
-    <div class="content-card">
-      <h3>📚 Publications</h3>
+<section id="work" class="compact-section">
+  <div class="section-grid">
+    <div class="section-card">
+      <h3>📚 Research & Publications</h3>
       <span class="status-badge">Coming Soon</span>
-      <p>Research publications and security insights will be shared here.</p>
     </div>
-    <div class="content-card">
+    <div class="section-card">
       <h3>🔓 CVEs & Advisories</h3>
       <span class="status-badge">Coming Soon</span>
-      <p>CVEs, GitHub Security Advisories, and coordinated disclosures.</p>
+    </div>
+    <div class="section-card">
+      <h3>📜 Patents</h3>
+      <span class="status-badge highlight">AI Security — Pending</span>
     </div>
   </div>
 </section>
 
-<section id="connect">
-  <h2>Let's <span>Connect</span></h2>
-  <div class="connect-grid">
+<section id="connect" class="compact-section">
+  <div class="connect-grid compact">
     <a href="https://www.linkedin.com/in/barakharyati" class="connect-link" target="_blank" rel="noopener">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
       LinkedIn
