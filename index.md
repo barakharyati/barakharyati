@@ -44,8 +44,8 @@ Coming soon
 
 ## Profiles
 
-- [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)
-- [GitHub](https://github.com/YOUR-GITHUB-USERNAME)
+- [LinkedIn](https://www.linkedin.com/in/barakharyati)
+- [GitHub](https://github.com/barakharyati)
 
 ---
 
