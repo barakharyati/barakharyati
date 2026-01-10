@@ -4,9 +4,11 @@ markdown: kramdown
 baseurl: ""
 url: "https://barak.haryati.io"
 
+# Google Analytics (GA4)
+google_analytics: G-SY1BB6SNKV
+
 # Build settings
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
