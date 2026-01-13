@@ -51,7 +51,7 @@ title: Barak Haryati
 <div class="content-wrapper">
 
 <section id="work" class="compact-section">
-  <div class="section-grid">
+  <div class="section-grid four-col">
     <div class="section-card">
       <h3>📚 Research & Publications</h3>
       <span class="status-badge">Coming Soon</span>
@@ -63,6 +63,10 @@ title: Barak Haryati
     <div class="section-card">
       <h3>📜 Patents</h3>
       <span class="status-badge highlight">AI Security — Pending</span>
+    </div>
+    <div class="section-card">
+      <h3>🏅 Acknowledgements</h3>
+      <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12" class="ack-link" target="_blank" rel="noopener">SAP Security Researcher Credits</a>
     </div>
   </div>
 </section>

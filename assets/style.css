@@ -288,6 +288,27 @@ h2 span {
   gap: 1rem;
 }
 
+.section-grid.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ack-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.ack-link:hover {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
 .section-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -539,7 +560,8 @@ footer .accent {
 
   .cards-grid,
   .connect-grid,
-  .section-grid {
+  .section-grid,
+  .section-grid.four-col {
     grid-template-columns: 1fr;
   }
   
