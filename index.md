@@ -3,16 +3,6 @@ layout: default
 title: Barak Haryati
 ---
 
-<nav class="nav">
-  <a href="#" class="nav-brand">🐸 BH</a>
-  <ul class="nav-links">
-    <li><a href="#" class="active">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#research">Research</a></li>
-    <li><a href="#connect">Connect</a></li>
-  </ul>
-</nav>
-
 <section class="hero">
   <div class="hero-content">
     <span class="hero-label">Hello, I'm</span>
@@ -28,18 +18,7 @@ title: Barak Haryati
       <span class="expertise-item">AI Security</span>
     </div>
     
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-icon">🏆</span>
-        <span class="stat-text">Patent Pending — AI Security</span>
-      </div>
-      <div class="stat">
-        <span class="stat-icon">📍</span>
-        <span class="stat-text">Israel</span>
-      </div>
-    </div>
     
-    <a href="#connect" class="hero-cta">Get In Touch</a>
   </div>
   
   <div class="hero-image">
@@ -61,7 +40,7 @@ title: Barak Haryati
     </div>
     <div class="section-card">
       <h3>📜 Patents</h3>
-      <span class="status-badge highlight">AI Security — Pending</span>
+      <span class="status-badge highlight">AI JailBreak Prevention — Pending</span>
     </div>
     <div class="section-card">
       <h3>🏅 Acknowledgements</h3>
@@ -90,5 +69,5 @@ title: Barak Haryati
 </div>
 
 <footer>
-  <p>© 2025 Barak Haryati · <span class="accent">Security Leader</span> · AppSec · Cloud · AI Security</p>
+  <p>© 2025 Barak Haryati · Security Leader · AppSec · Cloud · AI Security</p>
 </footer>

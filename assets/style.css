@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
-   BARAK HARYATI - CYBER SECURITY PORTFOLIO
-   Inspired by CSUME - Dark navy + Green accent
+   BARAK HARYATI - SECURITY PORTFOLIO
+   Classic professional dark theme
    ═══════════════════════════════════════════════════════════════ */
 
 /* Reset */
@@ -12,18 +12,18 @@
 
 /* CSS Variables */
 :root {
-  --bg-primary: #0b1221;
-  --bg-secondary: #0f172a;
-  --bg-card: #131c2e;
-  --bg-card-hover: #1a2540;
-  --accent: #00e676;
-  --accent-light: #69f0ae;
-  --accent-dim: rgba(0, 230, 118, 0.1);
-  --accent-glow: rgba(0, 230, 118, 0.4);
-  --text-primary: #ffffff;
-  --text-secondary: #b4c6d4;
-  --text-muted: #7a8ea3;
-  --border: #1e2a3a;
+  --bg-primary: #0f1419;
+  --bg-secondary: #15202b;
+  --bg-card: #192734;
+  --bg-card-hover: #22303c;
+  --accent: #8ab4f8;
+  --accent-light: #aecbfa;
+  --accent-dim: rgba(138, 180, 248, 0.1);
+  --accent-glow: rgba(138, 180, 248, 0.25);
+  --text-primary: #e7e9ea;
+  --text-secondary: #8b98a5;
+  --text-muted: #6e767d;
+  --border: #2f3336;
   --font-main: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -113,7 +113,7 @@ body {
   overflow: hidden;
 }
 
-/* Decorative circuit lines */
+/* Subtle gradient overlay */
 .hero::before {
   content: '';
   position: absolute;
@@ -122,7 +122,7 @@ body {
   width: 60%;
   height: 100%;
   background: 
-    linear-gradient(135deg, transparent 40%, rgba(0, 230, 118, 0.03) 100%);
+    linear-gradient(135deg, transparent 40%, rgba(138, 180, 248, 0.02) 100%);
   pointer-events: none;
 }
 
@@ -145,7 +145,7 @@ body {
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 0.5rem;
-  color: var(--accent);
+  color: var(--text-primary);
 }
 
 .hero-title {
@@ -156,7 +156,7 @@ body {
 }
 
 .hero-title .company {
-  color: var(--accent);
+  color: var(--text-primary);
   font-weight: 600;
 }
 
@@ -217,17 +217,13 @@ body {
   border-radius: 16px;
   object-fit: cover;
   border: 3px solid var(--border);
-  box-shadow: 
-    0 0 60px rgba(0, 230, 118, 0.15),
-    0 20px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   transition: all 0.4s ease;
 }
 
 .profile-image:hover {
   border-color: var(--accent);
-  box-shadow: 
-    0 0 100px rgba(0, 230, 118, 0.25),
-    0 30px 70px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5);
   transform: scale(1.02);
 }
 
@@ -244,11 +240,11 @@ body {
 
 .expertise-item {
   padding: 0.35rem 0.9rem;
-  background: var(--accent-dim);
-  border: 1px solid rgba(0, 230, 118, 0.3);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 100px;
   font-size: 0.8rem;
-  color: var(--accent);
+  color: var(--text-secondary);
   font-weight: 500;
 }
 
@@ -334,7 +330,7 @@ h2 span {
 }
 
 .section-card .status-badge.highlight {
-  background: rgba(0, 230, 118, 0.15);
+  background: var(--accent-dim);
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -369,7 +365,7 @@ h2 span {
   gap: 0.75rem;
   margin-top: 2rem;
   padding: 1rem 1.75rem;
-  background: rgba(0, 230, 118, 0.1);
+  background: var(--accent-dim);
   border: 2px solid var(--accent);
   border-radius: 12px;
   color: var(--accent);
@@ -457,8 +453,8 @@ h2 span {
   border-color: var(--accent);
   background: var(--accent-dim);
   color: var(--accent);
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 230, 118, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .connect-link svg {
