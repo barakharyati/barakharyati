@@ -1,0 +1,7 @@
+# robots.txt for barak.haryati.io
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://barak.haryati.io/sitemap.xml
