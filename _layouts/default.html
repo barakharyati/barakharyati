@@ -1,32 +1,80 @@
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <meta name="description" content="Barak Haryati - Director of Product Security at JFrog. Security evangelist specializing in Application Security, Cloud Security, CI/CD & Supply-Chain Security, and AI Security.">  
-  <meta name="theme-color" content="#0a0e17">  
-  <meta name="color-scheme" content="dark">  
-    
-  <!-- Open Graph -->  
-  <meta property="og:title" content="{{ page.title | default: site.title }}">  
-  <meta property="og:description" content="Director of Product Security at JFrog. Security evangelist specializing in AppSec, Cloud, CI/CD & AI Security.">  
-  <meta property="og:type" content="website">  
-  <meta property="og:url" content="https://barak.haryati.io">  
-    
-  <title>{{ page.title | default: site.title }}</title>  
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">  
-    
-  <!-- Favicon -->  
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary SEO Meta Tags -->
+  <title>Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog</title>
+  <meta name="title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <meta name="description"
+    content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security at JFrog. Security evangelist specializing in Application Security, Cloud Security, CI/CD & Supply-Chain Security, and AI Security. Patent holder in AI Security.">
+  <meta name="keywords"
+    content="Barak Haryati, ברק הרייתי, JFrog, Product Security, Application Security, AppSec, Cloud Security, CI/CD Security, Supply Chain Security, AI Security, Cybersecurity, Security Leader, Israel">
+  <meta name="author" content="Barak Haryati">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://barak.haryati.io/">
+  
+  <!-- Theme -->
+  <meta name="theme-color" content="#0b1221">
+  <meta name="color-scheme" content="dark">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://barak.haryati.io/">
+  <meta property="og:title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <meta property="og:description"
+    content="Security evangelist specializing in Application Security, Cloud Security, CI/CD & Supply-Chain Security, and AI Security. Patent holder in AI Security.">
+  <meta property="og:site_name" content="Barak Haryati">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="he_IL">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://barak.haryati.io/">
+  <meta name="twitter:title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <meta name="twitter:description"
+    content="Security evangelist specializing in Application Security, Cloud Security, CI/CD & Supply-Chain Security, and AI Security.">
+  
+  <!-- Additional SEO -->
+  <meta name="geo.region" content="IL">
+  <meta name="geo.placename" content="Israel">
+  <meta name="language" content="English">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Barak Haryati",
+      "alternateName": "ברק הרייתי",
+      "url": "https://barak.haryati.io",
+      "jobTitle": "Senior Director of Product Security",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "JFrog"
+      },
+      "knowsAbout": ["Application Security", "Cloud Security", "CI/CD Security", "Supply Chain Security", "AI Security", "Cybersecurity"],
+      "sameAs": [
+        "https://www.linkedin.com/in/barakharyati",
+        "https://github.com/barakharyati"
+      ]
+    }
+    </script>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
 
   <!-- Google Analytics (GA4) -->
   {% if site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
-</head>  
-<body>  
-  <main class="container">  
-    {{ content }}  
-  </main>  
-</body>  
+</head>
+
+<body>
+  <main class="container">
+    {{ content }}
+  </main>
+</body>
 </html>
