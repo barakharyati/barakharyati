@@ -11,7 +11,6 @@ title: Barak Haryati
     <li><a href="#research">Research</a></li>
     <li><a href="#connect">Connect</a></li>
   </ul>
-  <a href="mailto:barakhr25@gmail.com" class="nav-cta">Contact</a>
 </nav>
 
 <section class="hero">
