@@ -8,6 +8,7 @@ title: Barak Haryati
     <span class="hero-label">Hello, I'm</span>
     <h1>Barak Haryati</h1>
     <p class="hero-title">Senior Director of Product Security at <span class="company">🐸 JFrog</span></p>
+    <p class="hero-motto">"Securing innovation through innovative security."</p>
     
     <p class="hero-description">Security evangelist with a passion for technology and securing software at scale. I lead product security initiatives that protect millions of developers and enterprises worldwide — from vulnerability research to building secure platforms and guardrails.</p>
     
@@ -44,7 +45,7 @@ title: Barak Haryati
     </div>
     <div class="section-card">
       <h3>🏅 Acknowledgements</h3>
-      <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12" class="ack-link" target="_blank" rel="noopener">SAP Security Researcher Credits</a>
+      <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12#:~:text=Jfrog%2C%20Barak%20Haryati" class="ack-link" target="_blank" rel="noopener">SAP Security Researcher Credits</a>
     </div>
   </div>
 </section>
