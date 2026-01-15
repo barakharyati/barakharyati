@@ -45,7 +45,8 @@ title: Barak Haryati
     </div>
     <div class="section-card">
       <h3>🏅 Acknowledgements</h3>
-      <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12#:~:text=Jfrog%2C%20Barak%20Haryati" class="ack-link" target="_blank" rel="noopener">SAP Security Researcher Credits</a>
+      <a href="https://access.redhat.com/articles/66234#:~:text=Barak%20Haryati%2C%20JFrog" class="ack-link" target="_blank" rel="noopener">Red Hat</a>
+      <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12#:~:text=Jfrog%2C%20Barak%20Haryati" class="ack-link" target="_blank" rel="noopener">SAP</a>
     </div>
   </div>
 </section>
