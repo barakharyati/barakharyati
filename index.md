@@ -37,17 +37,27 @@ title: Barak Haryati
     </div>
     <div class="section-card">
   <h3>🔓 CVEs &amp; Advisories</h3>
+  
   <span class="status-badge">
     <a href="https://github.com/qgis/QGIS/security/advisories/GHSA-7h99-4f97-h6rw" target="_blank" rel="noopener noreferrer">
       CVE-2026-24480
     </a>
   </span>
+  
 
   <span class="status-badge">
     <a href="https://www.cve.org/CVERecord?id=CVE-2026-1699" target="_blank" rel="noopener noreferrer">
       CVE-2026-1699
     </a>
   </span>
+
+
+  <span class="status-badge">
+    <a href="https://github.com/parse-community/parse-server/security/advisories/GHSA-6w8g-mgvv-3fcj" target="_blank" rel="noopener noreferrer">
+      CVE-2025-67727
+    </a>
+  </span>
+  
 </div>
     <div class="section-card">
       <h3>📜 Patents</h3>
