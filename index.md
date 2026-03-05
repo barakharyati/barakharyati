@@ -40,19 +40,7 @@ title: Barak Haryati
   
   <span class="status-badge">
     <a href="https://github.com/qgis/QGIS/security/advisories/GHSA-7h99-4f97-h6rw" target="_blank" rel="noopener noreferrer">
-      CVE-2026-24480
-    </a>
-  </span>
-  
-  <span class="status-badge">
-    <a href="https://www.cve.org/CVERecord?id=CVE-2026-1699" target="_blank" rel="noopener noreferrer">
-      CVE-2026-1699
-    </a>
-  </span>
-
-  <span class="status-badge">
-    <a href="https://github.com/parse-community/parse-server/security/advisories/GHSA-6w8g-mgvv-3fcj" target="_blank" rel="noopener noreferrer">
-      CVE-2025-67727
+      CVE-2026-24480 (QGIS)
     </a>
   </span>
 
@@ -68,30 +56,112 @@ title: Barak Haryati
     </a>
   </span>
 
-  <span class="status-badge">
-    <a href="https://github.com/petgraph/petgraph/issues/950" target="_blank" rel="noopener noreferrer">
-      RCE (Petgraph)
-    </a>
-  </span>
+  <button class="show-more-btn" onclick="document.getElementById('cve-modal').classList.add('active')">
+    Show All (13)
+  </button>
+</div>
 
-  <span class="status-badge">
-    <a href="https://github.com/sdkman/sdkman-cli/security/advisories/GHSA-cprm-c872-3fw7" target="_blank" rel="noopener noreferrer">
-      GHSA-cprm (SDKMAN)
-    </a>
-  </span>
-
-  <span class="status-badge">
-    <a href="https://github.com/tc39/proposal-amount/security/advisories/GHSA-43vf-c68r-43mr" target="_blank" rel="noopener noreferrer">
-      GHSA-43vf (TC39)
-    </a>
-  </span>
-
-  <span class="status-badge">
-    <a href="https://github.com/typst/packages/security/advisories/GHSA-j5gp-pf74-5pj6" target="_blank" rel="noopener noreferrer">
-      GHSA-j5gp (Typst)
-    </a>
-  </span>
-  
+<!-- CVE Modal -->
+<div id="cve-modal" class="cve-modal-overlay" onclick="if(event.target===this)this.classList.remove('active')">
+  <div class="cve-modal">
+    <div class="cve-modal-header">
+      <h3>🔓 All CVEs &amp; Advisories</h3>
+      <button class="cve-modal-close" onclick="document.getElementById('cve-modal').classList.remove('active')">&times;</button>
+    </div>
+    <div class="cve-modal-body">
+      <div class="cve-modal-item">
+        <a href="https://github.com/ansible/ansible.platform/security/advisories/GHSA-fwqj-x86q-prmq" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-fwqj</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Ansible</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/p4lang/p4c/security/advisories/GHSA-6cw7-hxfh-8x94" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-6cw7</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">P4Lang</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/petgraph/petgraph/issues/950" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">RCE in Issue#950</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Petgraph</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/qgis/QGIS/security/advisories/GHSA-7h99-4f97-h6rw" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">CVE-2026-24480</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">QGIS</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/sdkman/sdkman-cli/security/advisories/GHSA-cprm-c872-3fw7" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-cprm</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">SDKMAN</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/tc39/proposal-amount/security/advisories/GHSA-43vf-c68r-43mr" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-43vf</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">TC39</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/telepresenceio/telepresence/security/advisories/GHSA-gc3r-m7gq-495f" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-gc3r (RCE)</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Telepresence</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/typst/packages/security/advisories/GHSA-j5gp-pf74-5pj6" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-j5gp</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Typst</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/xorbitsai/inference/issues/4528" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">RCE in Issue#4528</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Xorbits Inference</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://www.cve.org/CVERecord?id=CVE-2026-1699" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">CVE-2026-1699</span>
+          <span class="cve-severity critical">Critical</span>
+          <span class="cve-target">Eclipse Theia</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/Tencent/ncnn/security/advisories/GHSA-c44p-qr97-jccv" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-c44p</span>
+          <span class="cve-severity high">High</span>
+          <span class="cve-target">Tencent/ncnn</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://github.com/ceph/ceph/security/advisories/GHSA-p433-fp4g-pc2c" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">GHSA-p433 (RCE)</span>
+          <span class="cve-severity high">High</span>
+          <span class="cve-target">Ceph</span>
+        </a>
+      </div>
+      <div class="cve-modal-item">
+        <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-67727" target="_blank" rel="noopener noreferrer">
+          <span class="cve-id">CVE-2025-67727</span>
+          <span class="cve-severity medium">Medium</span>
+          <span class="cve-target">Parse Server</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
     <div class="section-card">
       <h3>📜 Patents</h3>
