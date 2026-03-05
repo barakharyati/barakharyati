@@ -33,7 +33,7 @@ title: Barak Haryati
   <div class="section-grid four-col">
     <div class="section-card">
       <h3>📚 Research & Publications</h3>
-      <span class="status-badge">Coming Soon</span>
+      <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="ack-link" target="_blank" rel="noopener">AI Bot Stopped Shai-Hulud3</a>
     </div>
     <div class="section-card">
   <h3>🔓 CVEs &amp; Advisories</h3>
@@ -44,17 +44,51 @@ title: Barak Haryati
     </a>
   </span>
   
-
   <span class="status-badge">
     <a href="https://www.cve.org/CVERecord?id=CVE-2026-1699" target="_blank" rel="noopener noreferrer">
       CVE-2026-1699
     </a>
   </span>
 
-
   <span class="status-badge">
     <a href="https://github.com/parse-community/parse-server/security/advisories/GHSA-6w8g-mgvv-3fcj" target="_blank" rel="noopener noreferrer">
       CVE-2025-67727
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/ansible/ansible.platform/security/advisories/GHSA-fwqj-x86q-prmq" target="_blank" rel="noopener noreferrer">
+      GHSA-fwqj (Ansible)
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/p4lang/p4c/security/advisories/GHSA-6cw7-hxfh-8x94" target="_blank" rel="noopener noreferrer">
+      GHSA-6cw7 (P4Lang)
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/petgraph/petgraph/issues/950" target="_blank" rel="noopener noreferrer">
+      RCE (Petgraph)
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/sdkman/sdkman-cli/security/advisories/GHSA-cprm-c872-3fw7" target="_blank" rel="noopener noreferrer">
+      GHSA-cprm (SDKMAN)
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/tc39/proposal-amount/security/advisories/GHSA-43vf-c68r-43mr" target="_blank" rel="noopener noreferrer">
+      GHSA-43vf (TC39)
+    </a>
+  </span>
+
+  <span class="status-badge">
+    <a href="https://github.com/typst/packages/security/advisories/GHSA-j5gp-pf74-5pj6" target="_blank" rel="noopener noreferrer">
+      GHSA-j5gp (Typst)
     </a>
   </span>
   
