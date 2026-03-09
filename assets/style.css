@@ -176,6 +176,18 @@ body {
   max-width: 480px;
 }
 
+.bio-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px dotted var(--accent);
+  transition: border-color 0.2s ease;
+}
+
+.bio-link:hover {
+  border-bottom-style: solid;
+}
+
 .hero-stats {
   display: flex;
   gap: 1.5rem;
