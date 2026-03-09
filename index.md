@@ -204,15 +204,15 @@ title: Barak Haryati
             <img src="assets/repohunter.png" alt="RepoHunter — AI-powered CI/CD security research tool">
           </div>
           <div class="tool-full-desc">
-            <p>RepoHunter is an AI-powered security research tool built to identify exploitable CI/CD workflow misconfigurations across open-source repositories. It specializes in detecting dangerous <code>pull_request_target</code> patterns in GitHub Actions workflows — where untrusted fork code runs with elevated permissions, secrets access, or write tokens — enabling Pwn Request (pwn_request) style attacks.</p>
-            <p>RepoHunter was the tool behind the discovery of Shai-Hulud (Shai_Hulud), a series of critical software supply chain vulnerabilities found across widely used open-source projects. Its research focus includes <code>pull_request_target</code> exploitation, <code>workflow_run</code> abuse, repository takeover via GITHUB_TOKEN, secret exfiltration, artifact poisoning, and downstream supply-chain compromise scenarios.</p>
+            <p>RepoHunter is an AI-powered security research tool built to identify exploitable CI/CD workflow misconfigurations across open-source repositories. It specializes in detecting dangerous CI/CD patterns in GitHub Actions workflows — including <code>pull_request_target</code>, <code>workflow_run</code>, <code>issue_comment</code>, unsafe artifact consumption, script injection via untrusted context variables, and other risky implementations where untrusted input intersects with elevated permissions, secrets access, or write tokens — enabling Pwn Request (pwn_request) style attacks.</p>
+            <p>RepoHunter was used to discover and prevent Shai-Hulud 3 (Shai_Hulud) style CI/CD supply chain attacks across widely used open-source projects. Its research focus includes <code>pull_request_target</code> exploitation, <code>workflow_run</code> abuse, repository takeover via GITHUB_TOKEN, secret exfiltration, artifact poisoning, and downstream supply-chain compromise scenarios.</p>
             <p>Built by Barak Haryati at JFrog as part of open-source security research, RepoHunter has been used to responsibly disclose critical RCE and supply chain vulnerabilities in projects such as Ceph, Telepresence, Ansible, QGIS, Parse Server, Xorbits Inference, and others.</p>
           </div>
           <div class="tool-capabilities">
             <h4>Capabilities</h4>
             <ul>
-              <li>Detection of unsafe <code>pull_request_target</code> workflows</li>
-              <li>Pwn Request and fork-based exploitation analysis</li>
+              <li>Detection of unsafe <code>pull_request_target</code>, <code>workflow_run</code>, and <code>issue_comment</code> triggers</li>
+              <li>Pwn Request, script injection, and fork-based exploitation analysis</li>
               <li>GITHUB_TOKEN permission and secret exposure scanning</li>
               <li>AI-assisted exploitability validation and triage</li>
               <li>Supply-chain risk and downstream impact assessment</li>
