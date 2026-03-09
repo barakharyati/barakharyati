@@ -175,6 +175,244 @@ title: Barak Haryati
   </div>
 </section>
 
+<section id="tools" class="tools-section">
+  <h2>🛠️ Tools</h2>
+  <div class="tools-grid" id="tools-grid">
+
+    <!-- Tool 1: RepoHunter -->
+    <article class="tool-card" id="tool-repohunter">
+      <button class="tool-card-header" onclick="toggleTool('tool-repohunter')" aria-expanded="false" aria-controls="tool-repohunter-details">
+        <div class="tool-card-icon">
+          <img src="assets/repohunter.png" alt="RepoHunter" class="tool-icon-img">
+        </div>
+        <div class="tool-card-summary">
+          <h3>RepoHunter</h3>
+          <p class="tool-short-desc">AI-powered tool for finding exploitable CI/CD workflow security risks.</p>
+          <div class="tool-tags-inline">
+            <span class="tool-tag">AI Security Research</span>
+            <span class="tool-tag">CI/CD</span>
+            <span class="tool-tag">Supply Chain</span>
+          </div>
+        </div>
+        <span class="tool-expand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="tool-details" id="tool-repohunter-details">
+        <div class="tool-details-inner">
+          <div class="tool-hero-image">
+            <img src="assets/repohunter.png" alt="RepoHunter — AI-powered CI/CD security research tool">
+          </div>
+          <div class="tool-full-desc">
+            <p>RepoHunter is an AI-powered security research tool built to identify exploitable CI/CD workflow misconfigurations across open-source repositories. It specializes in detecting dangerous <code>pull_request_target</code> patterns in GitHub Actions workflows — where untrusted fork code runs with elevated permissions, secrets access, or write tokens — enabling Pwn Request (pwn_request) style attacks.</p>
+            <p>RepoHunter was the tool behind the discovery of Shai-Hulud (Shai_Hulud), a series of critical software supply chain vulnerabilities found across widely used open-source projects. Its research focus includes <code>pull_request_target</code> exploitation, <code>workflow_run</code> abuse, repository takeover via GITHUB_TOKEN, secret exfiltration, artifact poisoning, and downstream supply-chain compromise scenarios.</p>
+            <p>Built by Barak Haryati at JFrog as part of open-source security research, RepoHunter has been used to responsibly disclose critical RCE and supply chain vulnerabilities in projects such as Ceph, Telepresence, Ansible, QGIS, Parse Server, Xorbits Inference, and others.</p>
+          </div>
+          <div class="tool-capabilities">
+            <h4>Capabilities</h4>
+            <ul>
+              <li>Detection of unsafe <code>pull_request_target</code> workflows</li>
+              <li>Pwn Request and fork-based exploitation analysis</li>
+              <li>GITHUB_TOKEN permission and secret exposure scanning</li>
+              <li>AI-assisted exploitability validation and triage</li>
+              <li>Supply-chain risk and downstream impact assessment</li>
+              <li>Responsible disclosure support for open-source projects</li>
+            </ul>
+          </div>
+          <div class="tool-tags-full">
+            <span class="tool-tag">AI Security Research</span>
+            <span class="tool-tag">CI/CD</span>
+            <span class="tool-tag">Supply Chain</span>
+            <span class="tool-tag">GitHub Actions Security</span>
+            <span class="tool-tag">Pwn Request</span>
+            <span class="tool-tag">pull_request_target</span>
+            <span class="tool-tag">Shai-Hulud</span>
+            <span class="tool-tag">Open Source Security</span>
+            <span class="tool-tag">Repository Takeover</span>
+            <span class="tool-tag">Secret Exfiltration</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Tool 2: GithubForensicTest -->
+    <article class="tool-card" id="tool-forensic">
+      <button class="tool-card-header" onclick="toggleTool('tool-forensic')" aria-expanded="false" aria-controls="tool-forensic-details">
+        <div class="tool-card-icon">
+          <span class="tool-icon-emoji">🔍</span>
+        </div>
+        <div class="tool-card-summary">
+          <h3>GithubForensicTest</h3>
+          <p class="tool-short-desc">Forensic tool to scan GitHub PR diffs for secrets and malicious code.</p>
+          <div class="tool-tags-inline">
+            <span class="tool-tag">Forensics</span>
+            <span class="tool-tag">Secret Detection</span>
+            <span class="tool-tag">Open Source</span>
+          </div>
+        </div>
+        <span class="tool-expand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="tool-details" id="tool-forensic-details">
+        <div class="tool-details-inner">
+          <div class="tool-full-desc">
+            <p>GithubForensicTest is a forensic security tool that scans GitHub Pull Request diffs at scale to detect secrets, credentials, vulnerabilities, and malicious code injections. It is designed for security researchers investigating CI/CD pipeline abuse, <code>pull_request_target</code> exploits, and Pwn Request attack evidence in open-source repositories.</p>
+            <p>The tool downloads and analyzes PR diffs using powerful regex pattern matching with ripgrep integration for 10-100x faster searching. It supports multi-token rotation for handling GitHub API rate limits, parallel downloads for large repositories, and exports results in JSON and CSV formats for forensic analysis and audit trails.</p>
+            <p>GithubForensicTest can be used to search for exposed API keys, leaked tokens, hardcoded passwords, <code>eval()</code> and <code>exec()</code> injections, and other suspicious code patterns across thousands of pull requests in any GitHub repository.</p>
+          </div>
+          <div class="tool-capabilities">
+            <h4>Capabilities</h4>
+            <ul>
+              <li>Regex-based PR diff pattern search at scale</li>
+              <li>Ripgrep integration for 10-100x faster scanning</li>
+              <li>Parallel downloads with multi-token rotation</li>
+              <li>Secret, credential, and API key detection</li>
+              <li>Malicious code injection pattern matching</li>
+              <li>JSON and CSV export with full audit logging</li>
+            </ul>
+          </div>
+          <div class="tool-links">
+            <a href="https://github.com/barakharyati/GithubForensicTest" class="tool-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <div class="tool-tags-full">
+            <span class="tool-tag">Forensics</span>
+            <span class="tool-tag">Secret Detection</span>
+            <span class="tool-tag">PR Analysis</span>
+            <span class="tool-tag">Vulnerability Research</span>
+            <span class="tool-tag">CI/CD Forensics</span>
+            <span class="tool-tag">Supply Chain</span>
+            <span class="tool-tag">Open Source</span>
+            <span class="tool-tag">Python</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Tool 3: OpenSSL FIPS Builder -->
+    <article class="tool-card" id="tool-fips">
+      <button class="tool-card-header" onclick="toggleTool('tool-fips')" aria-expanded="false" aria-controls="tool-fips-details">
+        <div class="tool-card-icon">
+          <span class="tool-icon-emoji">🔐</span>
+        </div>
+        <div class="tool-card-summary">
+          <h3>OpenSSL FIPS Builder</h3>
+          <p class="tool-short-desc">Docker-based build system for OpenSSL with FIPS provider support.</p>
+          <div class="tool-tags-inline">
+            <span class="tool-tag">Cryptography</span>
+            <span class="tool-tag">FIPS</span>
+            <span class="tool-tag">Docker</span>
+          </div>
+        </div>
+        <span class="tool-expand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="tool-details" id="tool-fips-details">
+        <div class="tool-details-inner">
+          <div class="tool-full-desc">
+            <p>OpenSSL FIPS Builder automates the setup and compilation process for building an OpenSSL application with FIPS (Federal Information Processing Standards) provider support inside a Docker environment. It compiles the FIPS module, configures OpenSSL to work in FIPS mode, and installs it on a separate Debian container.</p>
+            <p>Designed for teams that need FIPS-compliant cryptographic operations in containerized environments, the tool supports configurable OpenSSL and FIPS module versions and produces isolated, production-ready containers with validated cryptographic providers.</p>
+          </div>
+          <div class="tool-capabilities">
+            <h4>Capabilities</h4>
+            <ul>
+              <li>Automated FIPS module compilation and extraction</li>
+              <li>Configurable OpenSSL and FIPS versions</li>
+              <li>Docker-based isolated build environment</li>
+              <li>FIPS-mode OpenSSL configuration</li>
+              <li>Production-ready Debian container output</li>
+              <li>Compliance with federal cryptographic standards</li>
+            </ul>
+          </div>
+          <div class="tool-links">
+            <a href="https://github.com/barakharyati/openSSL_FIPS_Builder" class="tool-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <div class="tool-tags-full">
+            <span class="tool-tag">Cryptography</span>
+            <span class="tool-tag">FIPS</span>
+            <span class="tool-tag">Docker</span>
+            <span class="tool-tag">OpenSSL</span>
+            <span class="tool-tag">Compliance</span>
+            <span class="tool-tag">Shell</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Tool 4: OpenSCAP Scanner -->
+    <article class="tool-card" id="tool-openscap">
+      <button class="tool-card-header" onclick="toggleTool('tool-openscap')" aria-expanded="false" aria-controls="tool-openscap-details">
+        <div class="tool-card-icon">
+          <span class="tool-icon-emoji">🛡️</span>
+        </div>
+        <div class="tool-card-summary">
+          <h3>OpenSCAP Scanner</h3>
+          <p class="tool-short-desc">Containerized OpenSCAP security scanning for RHEL UBI9 environments.</p>
+          <div class="tool-tags-inline">
+            <span class="tool-tag">Compliance</span>
+            <span class="tool-tag">STIG</span>
+            <span class="tool-tag">Docker</span>
+          </div>
+        </div>
+        <span class="tool-expand-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="tool-details" id="tool-openscap-details">
+        <div class="tool-details-inner">
+          <div class="tool-full-desc">
+            <p>OpenSCAP Scanner provides a containerized solution for running OpenSCAP security scans on Red Hat Enterprise Linux 9 (UBI9) containers. It automates the full workflow — building the Docker image, running the scan with the STIG profile, and exporting human-readable HTML reports and detailed XML results.</p>
+            <p>The tool automatically fetches the latest SCAP Security Guide content from ComplianceAsCode, ensuring scans always use the most up-to-date security benchmarks. It can be integrated into CI/CD pipelines or scheduled via cron for continuous compliance monitoring.</p>
+          </div>
+          <div class="tool-capabilities">
+            <h4>Capabilities</h4>
+            <ul>
+              <li>Automated STIG profile security scanning</li>
+              <li>Docker-based isolated scan environment</li>
+              <li>HTML report and XML results export</li>
+              <li>Auto-fetches latest SCAP Security Guide</li>
+              <li>CI/CD and cron integration ready</li>
+              <li>Timestamped scan output organization</li>
+            </ul>
+          </div>
+          <div class="tool-links">
+            <a href="https://github.com/barakharyati/openscapScanner" class="tool-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <div class="tool-tags-full">
+            <span class="tool-tag">Compliance</span>
+            <span class="tool-tag">STIG</span>
+            <span class="tool-tag">Docker</span>
+            <span class="tool-tag">OpenSCAP</span>
+            <span class="tool-tag">RHEL UBI9</span>
+            <span class="tool-tag">Open Source</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<script>
+function toggleTool(id) {
+  var card = document.getElementById(id);
+  var isOpen = card.classList.contains('open');
+  var btn = card.querySelector('.tool-card-header');
+  card.classList.toggle('open');
+  btn.setAttribute('aria-expanded', !isOpen);
+}
+</script>
+
 <section id="connect" class="compact-section">
   <div class="connect-grid compact">
     <a href="https://www.linkedin.com/in/barakharyati" class="connect-link" target="_blank" rel="noopener">
