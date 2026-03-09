@@ -10,7 +10,7 @@ title: Barak Haryati
     <p class="hero-title">Senior Director of Product Security at <span class="company">🐸 JFrog</span></p>
     <p class="hero-motto">"Securing innovation through innovative security."</p>
     
-    <p class="hero-description">Security evangelist, vulnerability researcher, and active contributor to the open-source security community. I lead product security initiatives that protect millions of developers and enterprises worldwide — from discovering multiple critical CVEs in major open-source projects to building secure platforms, guardrails, and security tools such as <a href="#tool-repohunter" class="bio-link" onclick="document.getElementById('tool-repohunter').classList.add('open')">RepoHunter</a>.</p>
+    <p class="hero-description">Security evangelist, vulnerability researcher, and active contributor to the open-source security community. I lead product security initiatives that protect millions of developers and enterprises worldwide — from discovering multiple critical CVEs in major open-source projects to building secure platforms, guardrails, and security tools such as <a href="/repohunter" class="bio-link">RepoHunter</a>.</p>
     
     <div class="expertise-list">
       <span class="expertise-item">Application Security</span>
@@ -34,7 +34,7 @@ title: Barak Haryati
   <div class="section-grid four-col">
     <div class="section-card">
       <h3>📚 Research & Publications</h3>
-      <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="ack-link" target="_blank" rel="noopener">AI Bot Stopped Shai-Hulud3</a>
+      <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="ack-link" target="_blank" rel="noopener">RepoHunter (AI Bot) Stopped Shai-Hulud 3</a>
     </div>
     <div class="section-card">
   <h3>🔓 CVEs &amp; Advisories</h3>
@@ -219,6 +219,11 @@ title: Barak Haryati
               <li>Supply-chain risk and downstream impact assessment</li>
               <li>Responsible disclosure support for open-source projects</li>
             </ul>
+          </div>
+          <div class="tool-links">
+            <a href="/repohunter" class="tool-link">
+              Learn More &rarr;
+            </a>
           </div>
           <div class="tool-tags-full">
             <span class="tool-tag">AI Security Research</span>

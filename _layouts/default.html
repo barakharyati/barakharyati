@@ -5,26 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Primary SEO Meta Tags -->
-  <title>Barak Haryati - Senior Director of Product Security | JFrog</title>
-  <meta name="title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <title>{{ page.seo_title | default: "Barak Haryati - Senior Director of Product Security | JFrog" }}</title>
+  <meta name="title" content="{{ page.seo_title | default: 'Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog' }}">
   <meta name="description"
-    content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security at JFrog. Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. Specializing in CI/CD security, GitHub Actions exploitation, supply chain security, and AI security.">
+    content="{{ page.description | default: 'Barak Haryati (ברק הרייתי) - Senior Director of Product Security at JFrog. Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. Specializing in CI/CD security, GitHub Actions exploitation, supply chain security, and AI security.' }}">
   <meta name="keywords"
-    content="Barak Haryati, ברק הרייתי, JFrog, Product Security, Application Security, AppSec, Cloud Security, CI/CD Security, Supply Chain Security, AI Security, Cybersecurity, Security Leader, Israel, RepoHunter, pwn_request, pull_request_target, Pwn Request, Shai-Hulud, Shai Hulud, GitHub Actions Security, GithubForensicTest, workflow exploitation, repository takeover, secret exfiltration, pipeline misconfiguration, open source security research">
+    content="{{ page.keywords | default: 'Barak Haryati, ברק הרייתי, JFrog, Product Security, Application Security, AppSec, Cloud Security, CI/CD Security, Supply Chain Security, AI Security, Cybersecurity, Security Leader, Israel, RepoHunter, pwn_request, pull_request_target, Pwn Request, Shai-Hulud, Shai Hulud, GitHub Actions Security, GithubForensicTest, workflow exploitation, repository takeover, secret exfiltration, pipeline misconfiguration, open source security research' }}">
   <meta name="author" content="Barak Haryati">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://barak.haryati.io/">
+  <link rel="canonical" href="{{ page.canonical | default: site.url | append: page.url }}">
   
   <!-- Theme -->
   <meta name="theme-color" content="#0f1419">
   <meta name="color-scheme" content="dark">
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://barak.haryati.io/">
-  <meta property="og:title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.seo_title | default: 'Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog' }}">
   <meta property="og:description"
-    content="Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. Specializing in CI/CD security, GitHub Actions exploitation, supply chain security, and AI security.">
-  <meta property="og:image" content="https://barak.haryati.io/assets/profile.png">
+    content="{{ page.og_description | default: page.description | default: 'Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. Specializing in CI/CD security, GitHub Actions exploitation, supply chain security, and AI security.' }}">
+  <meta property="og:image" content="{{ page.og_image | default: 'https://barak.haryati.io/assets/profile.png' }}">
   <meta property="og:image:type" content="image/png">
   <meta property="og:site_name" content="Barak Haryati">
   <meta property="og:locale" content="en_US">
@@ -32,18 +32,18 @@
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://barak.haryati.io/">
-  <meta name="twitter:title" content="Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:title" content="{{ page.seo_title | default: 'Barak Haryati (ברק הרייתי) - Senior Director of Product Security | JFrog' }}">
   <meta name="twitter:description"
-    content="Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. CI/CD security, GitHub Actions exploitation, supply chain security.">
-  <meta name="twitter:image" content="https://barak.haryati.io/assets/profile.png">
+    content="{{ page.og_description | default: page.description | default: 'Vulnerability researcher, creator of RepoHunter, and active open-source security contributor. CI/CD security, GitHub Actions exploitation, supply chain security.' }}">
+  <meta name="twitter:image" content="{{ page.og_image | default: 'https://barak.haryati.io/assets/profile.png' }}">
   
   <!-- Additional SEO -->
   <meta name="geo.region" content="IL">
   <meta name="geo.placename" content="Israel">
   <meta name="language" content="English">
   
-  <!-- Structured Data (JSON-LD) -->
+  <!-- Structured Data (JSON-LD) — Person (site-wide) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -58,26 +58,14 @@
         "name": "JFrog"
       },
       "knowsAbout": ["Application Security", "Cloud Security", "CI/CD Security", "Supply Chain Security", "AI Security", "Cybersecurity", "GitHub Actions Security", "pull_request_target", "Pwn Request", "Pipeline Security", "Vulnerability Research"],
-      "hasCreated": { "@type": "SoftwareApplication", "name": "RepoHunter", "url": "https://barak.haryati.io/#tool-repohunter" },
+      "hasCreated": { "@type": "SoftwareApplication", "name": "RepoHunter", "url": "https://barak.haryati.io/repohunter" },
       "sameAs": [
         "https://www.linkedin.com/in/barakharyati",
         "https://github.com/barakharyati"
       ]
     }
     </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "RepoHunter",
-      "author": { "@type": "Person", "name": "Barak Haryati", "url": "https://barak.haryati.io" },
-      "description": "RepoHunter is an AI-powered security research tool for finding exploitable CI/CD workflow misconfigurations, pull_request_target vulnerabilities, Pwn Request attacks, and software supply chain risks in GitHub Actions pipelines. Built by Barak Haryati at JFrog, RepoHunter was used to discover and prevent Shai-Hulud 3 style CI/CD supply chain attacks across critical open-source projects.",
-      "applicationCategory": "SecurityApplication",
-      "operatingSystem": "Cross-platform",
-      "keywords": "RepoHunter, pwn_request, pull_request_target, Pwn Request, GitHub Actions security, CI/CD security, supply chain security, Shai-Hulud, Shai Hulud, workflow exploitation, pipeline misconfiguration, repository takeover, secret exfiltration, open source security research, JFrog security, Barak Haryati",
-      "image": "https://barak.haryati.io/assets/repohunter.png"
-    }
-    </script>
+  <!-- Structured Data (JSON-LD) — GithubForensicTest (site-wide) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
