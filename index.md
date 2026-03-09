@@ -10,7 +10,7 @@ title: Barak Haryati
     <p class="hero-title">Senior Director of Product Security at <span class="company">🐸 JFrog</span></p>
     <p class="hero-motto">"Securing innovation through innovative security."</p>
     
-    <p class="hero-description">Security evangelist and vulnerability researcher with a passion for technology and securing software at scale. I lead product security initiatives that protect millions of developers and enterprises worldwide — from discovering multiple critical CVEs in major open-source projects to building secure platforms, guardrails, and security tools such as <a href="#tool-repohunter" class="bio-link" onclick="document.getElementById('tool-repohunter').classList.add('open')">RepoHunter</a>.</p>
+    <p class="hero-description">Security evangelist, vulnerability researcher, and active contributor to the open-source security community. I lead product security initiatives that protect millions of developers and enterprises worldwide — from discovering multiple critical CVEs in major open-source projects to building secure platforms, guardrails, and security tools such as <a href="#tool-repohunter" class="bio-link" onclick="document.getElementById('tool-repohunter').classList.add('open')">RepoHunter</a>.</p>
     
     <div class="expertise-list">
       <span class="expertise-item">Application Security</span>
