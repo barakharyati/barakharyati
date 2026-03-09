@@ -755,7 +755,7 @@ h2 span {
 }
 
 .tool-card.open .tool-details {
-  max-height: 1200px;
+  max-height: 2400px;
 }
 
 .tool-details-inner {
@@ -1111,6 +1111,42 @@ h2 span {
   margin: 0;
 }
 
+/* Blog-style figure for RepoHunter page */
+.rh-media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: start;
+}
+
+.rh-blog-figure {
+  margin: 0;
+  padding: 0;
+}
+
+.rh-media-grid .rh-blog-figure img {
+  height: 320px;
+  object-fit: contain;
+}
+
+.rh-blog-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rh-blog-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+}
+
 /* ═══════════════════════════════════════════════════════════════
    CONNECT SECTION
    ═══════════════════════════════════════════════════════════════ */
@@ -1297,7 +1333,8 @@ footer .accent {
     padding: 2rem;
   }
 
-  .rh-capabilities-grid {
+  .rh-capabilities-grid,
+  .rh-media-grid {
     grid-template-columns: 1fr;
   }
 

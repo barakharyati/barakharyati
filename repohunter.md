@@ -160,6 +160,20 @@ og_description: "RepoHunter is an AI-powered security research tool by Barak Har
   </div>
 </section>
 
+<section class="rh-section">
+  <h2>Media</h2>
+  <div class="rh-media-grid">
+    <figure class="rh-blog-figure">
+      <img src="assets/repohunter-workflow.png" alt="RepoHunter Workflow — Ingestion, Identification, Validation, and Disclosure pipeline">
+      <figcaption>RepoHunter Workflow</figcaption>
+    </figure>
+    <figure class="rh-blog-figure">
+      <img src="assets/repohunter-dashboard.png" alt="RepoHunter Dashboard — vulnerability scanning results across open-source repositories">
+      <figcaption>RepoHunter Dashboard</figcaption>
+    </figure>
+  </div>
+</section>
+
 </div>
 
 <script type="application/ld+json">
