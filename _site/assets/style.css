@@ -1043,6 +1043,39 @@ h2 span {
   margin-top: 1rem;
 }
 
+.rh-domains-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.rh-domains-list li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  position: relative;
+  border-bottom: 1px solid var(--border);
+}
+
+.rh-domains-list li:last-child {
+  border-bottom: none;
+}
+
+.rh-domains-list li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.rh-domains-list li strong {
+  color: var(--text-primary);
+}
+
 .rh-disclosures {
   display: flex;
   flex-direction: column;

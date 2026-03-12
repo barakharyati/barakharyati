@@ -1,0 +1,126 @@
+---
+layout: default
+title: AI Security Research
+permalink: /ai-security-research
+seo_title: "AI Security & CI/CD Security Research – Barak Haryati"
+description: "Barak Haryati's research in AI Security, CI/CD Security, Application Security, DevSecOps Security, and Software Supply Chain Security. Creator of RepoHunter, an AI-powered tool for detecting GitHub Actions exploitation and pipeline vulnerabilities at scale."
+keywords: "Barak Haryati, AI Security, Application Security, CI/CD Security, DevSecOps Security, GitHub Actions Security, Software Supply Chain Security, Pipeline Security, RepoHunter, pull_request_target exploitation, Pwn Request, Supply Chain Attack Detection, CI/CD Vulnerability Detection, open source security research, JFrog"
+og_image: "https://barak.haryati.io/assets/repohunter-ai-security-tool.png"
+og_description: "Barak Haryati's AI Security and CI/CD Security research — detecting GitHub Actions exploitation, software supply chain vulnerabilities, and DevSecOps risks across open-source ecosystems."
+---
+
+<section class="rh-hero">
+  <div class="rh-hero-content">
+    <div class="rh-hero-text">
+      <h1>AI Security &amp; CI/CD Security Research</h1>
+      <p class="rh-subtitle">by <strong>Barak Haryati</strong>, Senior Director of Product Security at JFrog</p>
+      <p class="rh-intro">Barak Haryati conducts research at the intersection of AI Security, Application Security, and CI/CD Security. His work focuses on discovering and preventing Software Supply Chain vulnerabilities in open-source ecosystems — from GitHub Actions exploitation to DevSecOps pipeline misconfigurations that put millions of developers and enterprises at risk.</p>
+      <div class="rh-cta-row">
+        <a href="/repohunter" class="rh-btn rh-btn-primary">RepoHunter Research Tool</a>
+        <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="rh-btn rh-btn-secondary" target="_blank" rel="noopener">Read the Blog</a>
+        <a href="/" class="rh-btn rh-btn-secondary">Back to Profile</a>
+      </div>
+    </div>
+    <div class="rh-hero-image">
+      <img src="assets/repohunter-ai-security-tool.png" alt="AI Security and CI/CD Security Research by Barak Haryati">
+    </div>
+  </div>
+</section>
+
+<div class="rh-content">
+
+<section class="rh-section">
+  <h2>AI Security Research</h2>
+  <p>Barak Haryati's AI Security research explores how artificial intelligence can be applied to scale vulnerability discovery and exploit validation across open-source ecosystems. Through the development of <a href="/repohunter">RepoHunter</a>, an AI-powered security research tool, Barak Haryati demonstrated that AI-assisted Application Security research can systematically identify exploitable CI/CD workflow misconfigurations that manual review would miss.</p>
+  <p>RepoHunter uses AI to crawl thousands of public repositories, analyze their CI/CD configurations, and validate whether identified patterns are genuinely exploitable. This AI Security approach reduces false positives and prioritizes real-world attack scenarios — enabling responsible disclosure of critical vulnerabilities before attackers can operationalize them. The research proved that AI-powered CI/CD Vulnerability Detection can operate at a scale and speed that traditional security auditing cannot match.</p>
+</section>
+
+<section class="rh-section">
+  <h2>CI/CD Security and GitHub Actions Vulnerabilities</h2>
+  <p>A core focus of Barak Haryati's research is CI/CD Security — specifically, how GitHub Actions workflows can be exploited to compromise entire software supply chains. Through systematic GitHub Actions Security research, three distinct exploitation classes were identified and documented:</p>
+  <p><strong>Test-Based Execution</strong> — CI/CD workflows that check out pull request code and execute test scripts in privileged contexts. This pattern was found in QGIS (government GIS infrastructure), SDKMAN (JVM developer toolchain), Typst (language ecosystem registry), and Eclipse Theia (cloud IDE framework). <a href="https://research.jfrog.com/post/part-1-pull-request-target-exploitation" target="_blank" rel="noopener">Read the full analysis</a>.</p>
+  <p><strong>Build-Scripts and Installer-Based Execution</strong> — workflows executing build tools (<code>cargo build</code>, <code>npm ci</code>, <code>make</code>) on untrusted code, where build hooks run attacker-controlled commands. This CI/CD Security pattern was identified in Petgraph (hundreds of millions of Rust crate downloads), TC39 (JavaScript standards), Telepresence (CNCF Kubernetes tool), and Tencent/ncnn (mobile AI framework serving 1.4B+ users). <a href="https://research.jfrog.com/post/part-2-pull-request-target-exploitation" target="_blank" rel="noopener">Read the full analysis</a>.</p>
+  <p><strong>Branch and Config Injection</strong> — unsanitized branch names injected into shell commands, enabling command injection. This Pipeline Security vulnerability was found in P4Lang (SDN infrastructure used by Google, AT&amp;T, Intel), Xorbits Inference (AI model serving with downstream path to LangChain), and Ceph (distributed storage powering cloud providers). <a href="https://research.jfrog.com/post/part-3-pull-request-target-exploitation" target="_blank" rel="noopener">Read the full analysis</a>.</p>
+</section>
+
+<section class="rh-section">
+  <h2>DevSecOps Security Research</h2>
+  <p>Modern DevSecOps pipelines are built on the assumption that CI/CD infrastructure is trustworthy. Barak Haryati's DevSecOps Security research challenges this assumption by demonstrating how common workflow patterns — triggers like <code>pull_request_target</code>, <code>workflow_run</code>, and <code>issue_comment</code> — can be exploited to escalate from a simple pull request to full repository compromise, secret exfiltration, and registry poisoning.</p>
+  <p>The shift to trusted publishing models (such as npm's OIDC-based approach) moved the root of trust to CI/CD. When CI/CD Security is compromised, the entire DevSecOps chain collapses. Barak Haryati's research demonstrates that DevSecOps Security requires treating CI/CD pipelines as attack surfaces, not just automation tools — scanning workflow configurations for privilege escalation, secret exposure, and unsafe input handling with the same rigor applied to application code.</p>
+</section>
+
+<section class="rh-section">
+  <h2>Software Supply Chain Attack Prevention</h2>
+  <p>Barak Haryati's Software Supply Chain Security research focuses on preventing ecosystem-wide attacks that originate from CI/CD compromise. A single workflow misconfiguration can cascade into downstream poisoning of package registries — npm, PyPI, crates.io, Docker Hub — affecting millions of developers who trust these distribution channels.</p>
+  <p>The vulnerabilities discovered by Barak Haryati using RepoHunter demonstrated real-world Supply Chain Attack scenarios: compromised CI tokens that could publish backdoored npm packages (Eclipse Theia), poisoned Rust crates consumed by hundreds of millions of downstream builds (Petgraph), exfiltrated PyPI and Docker credentials enabling AI infrastructure compromise (Xorbits Inference), and Docker Hub credentials exposing SDN networking infrastructure (P4Lang). These findings were responsibly disclosed and helped prevent potential Shai-Hulud 3 style Software Supply Chain attacks across critical open-source projects.</p>
+</section>
+
+<section class="rh-section">
+  <h2>GitHub Actions Security</h2>
+  <p>GitHub Actions has become the dominant CI/CD platform for open-source development, making GitHub Actions Security a critical area of Application Security research. Barak Haryati's research identified specific trigger patterns that create exploitable attack surfaces:</p>
+  <ul class="rh-domains-list">
+    <li><strong><code>pull_request_target</code></strong> — the primary attack vector, where workflows execute in the base repository context with full secrets and write permissions, but process untrusted pull request code</li>
+    <li><strong><code>workflow_run</code></strong> — workflows triggered by other workflows, creating chains of privilege escalation when combined with untrusted inputs</li>
+    <li><strong><code>issue_comment</code></strong> — ChatOps-style automation that can be manipulated to trigger high-privilege workflows through crafted comments</li>
+    <li><strong>Unsafe artifact consumption</strong> — workflows that consume artifacts from untrusted sources without validation, enabling injection of malicious payloads</li>
+    <li><strong>Script injection via context variables</strong> — untrusted GitHub context data (PR titles, branch names, commit messages) interpolated directly into shell commands</li>
+  </ul>
+  <p>This GitHub Actions Security research by Barak Haryati led to the responsible disclosure of 13 critical vulnerabilities across projects including Ansible, QGIS, Telepresence, Petgraph, Eclipse Theia, and others. The full technical details are documented in the <a href="/repohunter">RepoHunter research page</a> and the <a href="https://research.jfrog.com/post/part-1-pull-request-target-exploitation" target="_blank" rel="noopener">JFrog Security Research blog series</a>.</p>
+</section>
+
+<section class="rh-section">
+  <h2>Research Publications</h2>
+  <div class="rh-publications">
+    <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="rh-pub-card" target="_blank" rel="noopener">
+      <h3>How JFrog's AI-Research Bot Found OSS CI/CD Vulnerabilities to Prevent Shai Hulud 3.0</h3>
+      <p>JFrog Blog — by Barak Haryati, March 2026</p>
+    </a>
+    <a href="https://research.jfrog.com/post/part-1-pull-request-target-exploitation" class="rh-pub-card" target="_blank" rel="noopener">
+      <h3>pull_request_target Exploitation — Part 1: Test-Based Execution</h3>
+      <p>JFrog Security Research — by Barak Haryati, March 2026</p>
+    </a>
+    <a href="https://research.jfrog.com/post/part-2-pull-request-target-exploitation" class="rh-pub-card" target="_blank" rel="noopener">
+      <h3>pull_request_target Exploitation — Part 2: Build-Scripts and Installer-Based Execution</h3>
+      <p>JFrog Security Research — by Barak Haryati, March 2026</p>
+    </a>
+    <a href="https://research.jfrog.com/post/part-3-pull-request-target-exploitation" class="rh-pub-card" target="_blank" rel="noopener">
+      <h3>pull_request_target Exploitation — Part 3: Branch and Config Injection</h3>
+      <p>JFrog Security Research — by Barak Haryati, March 2026</p>
+    </a>
+  </div>
+</section>
+
+<section class="rh-section">
+  <h2>About Barak Haryati</h2>
+  <p>Barak Haryati is Senior Director of Product Security at JFrog, where he leads global teams across Application Security, Cloud Security, and Security Architecture. As a vulnerability researcher specializing in AI Security, CI/CD Security, and DevSecOps Security, he created <a href="/repohunter">RepoHunter</a> to proactively hunt Pipeline Security and Software Supply Chain risks before attackers can exploit them.</p>
+  <div class="rh-cta-row">
+    <a href="/" class="rh-btn rh-btn-secondary">View Full Profile</a>
+    <a href="/repohunter" class="rh-btn rh-btn-secondary">RepoHunter Research Tool</a>
+    <a href="https://www.linkedin.com/in/barakharyati" class="rh-btn rh-btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "AI Security & CI/CD Security Research – Barak Haryati",
+  "description": "Barak Haryati's research in AI Security, CI/CD Security, Application Security, DevSecOps Security, and Software Supply Chain Security.",
+  "url": "https://barak.haryati.io/ai-security-research",
+  "author": {
+    "@type": "Person",
+    "name": "Barak Haryati",
+    "jobTitle": "Senior Director of Product Security",
+    "worksFor": { "@type": "Organization", "name": "JFrog" },
+    "url": "https://barak.haryati.io"
+  },
+  "about": ["AI Security", "Application Security", "CI/CD Security", "DevSecOps Security", "GitHub Actions Security", "Software Supply Chain Security", "Pipeline Security"],
+  "keywords": "Barak Haryati, AI Security, Application Security, CI/CD Security, DevSecOps Security, GitHub Actions Security, Software Supply Chain Security, RepoHunter, pull_request_target exploitation, open source security research"
+}
+</script>
+
+<footer>
+  <p>&copy; 2025 Barak Haryati &middot; Security Leader &middot; AppSec &middot; Cloud &middot; AI Security</p>
+</footer>
