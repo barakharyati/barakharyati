@@ -312,6 +312,7 @@ h2 span {
   color: var(--accent);
   text-decoration: none;
   padding: 0.3rem 0.6rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
   background: var(--accent-dim);
   border: 1px solid var(--accent);
   border-radius: 4px;
@@ -1117,6 +1118,7 @@ h2 span {
 .rh-pub-card {
   display: block;
   padding: 1.25rem;
+  margin-bottom: 0.75rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;

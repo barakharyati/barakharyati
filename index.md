@@ -34,6 +34,7 @@ title: Barak Haryati
   <div class="section-grid four-col">
     <div class="section-card">
       <h3>📚 Research & Publications</h3>
+      <a href="https://arxiv.org/html/2610.22578" class="ack-link" target="_blank" rel="noopener">Model-as-a-Trojan (arXiv)</a>
       <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="ack-link" target="_blank" rel="noopener">RepoHunter (AI Bot) Stopped Shai-Hulud 3</a>
     </div>
     <div class="section-card">
@@ -172,6 +173,7 @@ title: Barak Haryati
       <h3>🏅 Acknowledgements</h3>
       <a href="https://access.redhat.com/articles/66234#:~:text=Barak%20Haryati%2C%20JFrog" class="ack-link" target="_blank" rel="noopener">80+ Critical Red Hat</a>
       <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/credits-for-security-researchers.html?anchorId=M12#:~:text=Jfrog%2C%20Barak%20Haryati" class="ack-link" target="_blank" rel="noopener">SAP</a>
+      <a href="https://www.ibm.com/support/pages/ibm-product-security-incident-response-team-news#:~:text=Barak%20Haryati%2C%20JFrog" class="ack-link" target="_blank" rel="noopener">IBM</a>
     </div>
   </div>
 </section>

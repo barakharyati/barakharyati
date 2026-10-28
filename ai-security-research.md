@@ -71,6 +71,10 @@ og_description: "Barak Haryati's AI Security and CI/CD Security research — det
 <section class="rh-section">
   <h2>Research Publications</h2>
   <div class="rh-publications">
+    <a href="https://arxiv.org/html/2610.22578" class="rh-pub-card" target="_blank" rel="noopener">
+      <h3>Model-as-a-Trojan: Self-Activating Covert DNS Exfiltration Baked Into the Weights of an LLM Agent</h3>
+      <p>arXiv — by Barak Haryati and Shaked Zychlinski, October 2026</p>
+    </a>
     <a href="https://jfrog.com/blog/jfrog-ai-bot-stopped-shai-hulud-3/" class="rh-pub-card" target="_blank" rel="noopener">
       <h3>How JFrog's AI-Research Bot Found OSS CI/CD Vulnerabilities to Prevent Shai Hulud 3.0</h3>
       <p>JFrog Blog — by Barak Haryati, March 2026</p>
