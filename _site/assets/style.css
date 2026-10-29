@@ -989,6 +989,36 @@ h2 span {
   padding: 2rem 5rem 3rem;
 }
 
+.ack-shot {
+  margin: 1.25rem 0 0;
+  max-width: 1024px;
+}
+
+.ack-shot img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.ack-shot figcaption {
+  margin-top: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.ack-shot figcaption a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.ack-shot figcaption span {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
 .rh-section {
   margin-bottom: 3rem;
 }
